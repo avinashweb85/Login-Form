@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" href="index.css" />
+</head>
 
 <body>
 <form>
-    <div class="imgecontainer">
+    <div class="imgcontainer">
         <img src="./images/avatar.svg" alt="profile picture" width="20%"/>
     </div>
     <div class="container">
         <label for="name"><b>Username</b></label>
         <input name="name" type="text" placeholder="Enter your name" required/>
-        <label for="password">Password</label>
+        <label for="password"><b>Password</b></label>
         <input type="password" name="password" placeholder="Please enter your password" required/>
         <button type="submit">Submit</button>
         <label>
             <input type="checkbox" checked name="remember"/> Remember me
         </label>
         <div>
-            <button type="button">Cancel</button>
-            <span><a href="#">Forgot password</a> </span>
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span><a href="#">Forgot password</a></span>
         </div>
     </div>
 </form>
